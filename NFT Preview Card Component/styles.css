@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    margin: 2rem 1rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.image-top{
+    position: relative;
+    cursor: pointer;
+}
+
+.image-top img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.image-top .image-overlay{
+    background-color: hsl(178, 100%, 50%, 50%);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.image-top:hover .image-overlay{
+    display: block;
+    border-radius: 10px;
+}
+
+.image-top .image-overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.equilibrium .heading{
+    color: hsl(0, 0%, 100%);
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.equilibrium .heading:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.equilibrium .desc{
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info .eth{
+    color: hsl(178, 100%, 50%);
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.info .eth p{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.info .days{
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+    padding-left: 40px;
+}
+
+.info .days p{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.creation {
+    display: flex;
+    align-items: center;
+}
+
+.creation img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.creation p{
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.creation span{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.creation span:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.attribution{
+    color: white;
+    text-align: center;
+}
