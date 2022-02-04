@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.box{
+    padding: 45px;
+}
+
+.box h3{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.box p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5;
+}
+
+.box button{
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive; 
+    font-size: 15px;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    padding: 15px 35px;
+    margin-top: 65px;
+    transition: .5s;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedan button{
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.sedan button:hover{
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+.suv button{
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.suv button:hover{
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+.luxury button{
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.luxury button:hover{
+    color: hsl(0, 0%, 95%);
+    background: transparent;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 650px){
+    .card{
+        grid-template-columns: 1fr;
+    }
+    
+    .box button{
+        margin-top: 25px;
+    }
+}
