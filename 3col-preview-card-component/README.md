@@ -62,5 +62,5 @@ grid-template-columns: 1fr;
 
 ### Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/dheerajmnk)
-- Twitter - [@yourusername](https://www.twitter.com/dheerajmnk)
+- Frontend Mentor - [@dheerajmnk](https://www.frontendmentor.io/profile/dheerajmnk)
+- Twitter - [@dheerajmnk](https://www.twitter.com/dheerajmnk)
